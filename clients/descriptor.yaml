@@ -1,0 +1,57 @@
+clientID:
+   meta:
+    basic_informacion:
+       name: "clientID"
+       definition:
+       main_platform:
+       affected_platforms:
+       golden_records:
+         - clients
+       affected_golde_records:
+         - clients
+       level_of_data_queality:
+         - reliable # reliable | unreliable | conditional
+       is_persisted: true
+       is_calculated_field: false
+       updated_frequency: daily # daily | weekly | monthly | realtime
+    trazability:
+      origin_system: oracle.clientes.clientID # origin.table.column
+      origin_operations_system: RIC
+      destiny_system:
+        - AtlasMongoDB.cluster001.clients.clients.clientID # System.cluster.collection.entity.field
+        - AtlasMongoDB.cluster001.clients.contacts.clientID # System.cluster.collection.entity.field
+
+    rules:
+      validation:
+        - isNotNull: "is not null" # expresion de la regla
+        - isNotBlank: "is not blank"
+      standarization:
+        - tbd
+      consolidation:
+        - tbd
+      enrichment:
+        - API:
+          - name: api_de_catalogo_externa_1
+          - field: some.path.to.data
+      domain_specific_value:
+        - n/a
+      detailed_calculation:
+        - n/a
+    model:
+      version: "generalClient_v1.4"
+      data_type: "string" # segun diccionario de datos
+      is_primary_key: true
+      is_candidate_key: false
+      is_foreign_key: false
+        - referenced_table: "n/a"
+        - referenced_filed: "n/a"
+
+addresses:
+  Array of: address
+
+phones
+  Array of: phone
+phone:
+
+
+

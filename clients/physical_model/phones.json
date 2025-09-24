@@ -1,0 +1,16 @@
+{
+  "clientID": "123e4567-e89b-12d3-a456-426614174000",
+  "contactType": "Some value",
+  "orderPreference": 3,
+  "numberPhone": "678678678",
+  "phoneCountryCode": "+41",
+  "isValidatedPhone": true,
+  "validationCode": "123e4567-e89b-12d3-a456-426614174000",
+  "meta": {
+    "createdAt": "1758552519383",
+    "createdBy": "user@email.com",
+    "modifiedBy": "user@email.com",
+    "modifiedAt": "1758552519383",
+    "schema": "phone_v1.4"
+  }
+}

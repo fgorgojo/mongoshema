@@ -1,0 +1,19 @@
+{
+  "clientID": "123e4567-e89b-12d3-a456-426614174000",
+  "name": "Some Name",
+  "firstSurname":  "some value",
+  "secondSurname": "some value",
+  "blockdate": "2025-09-22T09:30:00.000Z",
+  "childrenNum": 3,
+  "birthdate": "1990-10-10 10:10:10",
+  "professionCode": "123e4567-e89b-12d3-a456-426614174000",
+  "occupationCode": "123e4567-e89b-12d3-a456-426614174000",
+  "genderCode": "123e4567-e89b-12d3-a456-426614174000",
+  "meta": {
+    "createdAt": "1758552519383",
+    "createdBy": "user@email.com",
+    "modifiedBy": "user@email.com",
+    "modifiedAt": "1758552519383",
+    "schema": "client_v1.4"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "createdAt": {
+          "type": "string"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "modifiedBy": {
+          "type": "string"
+        },
+        "modifiedAt": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "createdAt",
+        "createdBy",
+        "modifiedBy",
+        "modifiedAt",
+        "schema"
+      ]
+    },
+    "generalClientID": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "firstSurname": {
+      "type": "string"
+    },
+    "secondSurname": {
+      "type": "string"
+    },
+    "blockdate": {
+      "type": "string"
+    },
+    "generalInformation": {
+      "type": "object",
+      "properties": {
+        "childrenNum": {
+          "type": "integer"
+        },
+        "professionCode": {
+          "type": "string"
+        },
+        "occupationCode": {
+          "type": "string"
+        },
+        "genderCode": {
+          "type": "string"
+        },
+        "birthdate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "childrenNum",
+        "professionCode",
+        "occupationCode",
+        "genderCode",
+        "birthdate"
+      ]
+    }
+  },
+  "required": [
+    "meta",
+    "generalClientID",
+    "name",
+    "firstSurname",
+    "secondSurname",
+    "blockdate",
+    "generalInformation"
+  ]
+}
